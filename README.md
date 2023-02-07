@@ -7,3 +7,9 @@ The main purpose of this project is to get a simple understanding of how the Con
 ![image](https://user-images.githubusercontent.com/96066261/216238056-7d1ce807-c5b2-4dec-a554-60846b978474.png)
 
 With the help of the above diagram we can easily identify the layers made in the Convolutional Neural Networks and these are not restricted to just 1 or 5 layers, we can make n number of hidden layers for our model.
+
+
+# Overview
+
+The above project contains a dataset consisting of images with crops :- Jute, Maize, Rice, Sugarcane and Wheat where we have to predict which image belongs to which class. We also have a csv file containing the details of the classes. The images can be as follows:
+![image](https://user-images.githubusercontent.com/96066261/217152230-9040ee4a-778e-4aae-8209-9eb56febcb95.png)
