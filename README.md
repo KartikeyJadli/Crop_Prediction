@@ -14,3 +14,8 @@ With the help of the above diagram we can easily identify the layers made in the
 The above project contains a dataset consisting of images with crops :- Jute, Maize, Rice, Sugarcane and Wheat where we have to predict which image belongs to which class. We also have a csv file containing the details of the classes. The images can be as follows:
 ![image](https://user-images.githubusercontent.com/96066261/217152230-9040ee4a-778e-4aae-8209-9eb56febcb95.png)               ![image](https://user-images.githubusercontent.com/96066261/217152303-f5569bab-10b0-4929-b256-6c5c27edfcf9.png)                ![image](https://user-images.githubusercontent.com/96066261/217152332-ae6d5388-f917-4b5c-b97c-4def0ec1c140.png)      ![image](https://user-images.githubusercontent.com/96066261/217152354-3d214e42-ff69-4af7-ab35-01e115f626ad.png)                       ![image](https://user-images.githubusercontent.com/96066261/217152366-8f5f965d-6bb9-46a0-888a-45e411ec8fb0.png)
 
+
+Also we can see the intesity of the images by using grayscale from OpenCV and easily visualize it in the dataset via graphs. For example,
+![image](https://user-images.githubusercontent.com/96066261/217152665-914c7e77-c6d6-46e0-95c9-319076ccbfe7.png)
+
+Now as we know that a machine cannot recognize or work omn strings or any other values except numerical values. So, to overcome this hurdle LabelEncoders are used to give a unique numerical value to each class. These classes can be easily used in the Convolutional Neural Networks.
